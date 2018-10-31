@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ApiRunner" project="Api_Automation" tests="7" started="7" failures="0" errors="0" ignored="7">
+  <testsuite name="com.qa.runnerApi.ApiRunner" time="0.006">
+    <testsuite name="Feature: Rest Api get testing using Rest Assured" time="0.006">
+      <testsuite name="Scenario: Get request" time="0.006" incomplete="true">
+        <skipped/>
+        <testcase name="Given Set web application url to the application url" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="Given get api endpoint as proper url" classname="Scenario: Get request" time="0.001" ignored="true"/>
+        <testcase name="Given Set HEADER param response accept type as json type" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="When Raise GET HTTP request" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="Then Valid HTTP response should be received" classname="Scenario: Get request" time="0.004" ignored="true"/>
+        <testcase name="Then Response http code should be 200" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="Then Response BODY should not be null or empty" classname="Scenario: Get request" time="0.001" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

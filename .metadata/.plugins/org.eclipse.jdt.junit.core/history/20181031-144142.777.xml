@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ApiRunner" project="Api_Automation" tests="11" started="11" failures="0" errors="0" ignored="11">
+  <testsuite name="com.qa.runnerApi.ApiRunner" time="0.0">
+    <testsuite name="Feature: Rest Api get testing using Rest Assured" time="0.0">
+      <testsuite name="Scenario: Get request" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="Given Simple init" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="And Set web application url to &quot;https://reqres.in&quot;" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="Given Set GET api endpoint as &quot;/api/users&quot;" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="And Set HEADER param response accept type as &quot;application/json&quot;" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="And Set Query param as &quot;empty&quot;" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="And Raise &quot;GET&quot; HTTP request" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="Then Valid HTTP response should be received" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="And Response http code should be 200" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="And Response HEADER content type should be &quot;application/json&quot;" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="And Response BODY should not be null or empty" classname="Scenario: Get request" time="0.0" ignored="true"/>
+        <testcase name="And Response BODY parsing for &quot;GET__signup&quot; should be successful" classname="Scenario: Get request" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

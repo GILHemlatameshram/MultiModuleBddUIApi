@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="JITAutomationBdd" tests="5" started="5" failures="0" errors="1" ignored="5">
+  <testsuite name="com.qa.runner.TestRunner">
+    <testsuite name="Feature: Just Recharge It feature">
+      <testsuite name="Scenario: Sign in to Just recharge it" time="1.999" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at com.cucumber.listener.Reporter.assignAuthor(Reporter.java:148)&#13;
+	at com.qa.stepDefinitions.SignInStepDefinition.beforeScenario(SignInStepDefinition.java:38)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at cucumber.runtime.Utils$1.call(Utils.java:40)&#13;
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;
+	at cucumber.runtime.Utils.invoke(Utils.java:34)&#13;
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)&#13;
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)&#13;
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)&#13;
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)&#13;
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)&#13;
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#13;
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#13;
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+&#13;
+</error>
+        <testcase name="Given User is on start page of JIT website" classname="Scenario: Sign in to Just recharge it" time="0.001" ignored="true"/>
+        <testcase name="When User clicks on Sign in link" classname="Scenario: Sign in to Just recharge it" time="0.0" ignored="true"/>
+        <testcase name="Then User enters username and password to Sign in" classname="Scenario: Sign in to Just recharge it" time="0.0" ignored="true"/>
+        <testcase name="Then User clicks on Secure Sign In button" classname="Scenario: Sign in to Just recharge it" time="0.0" ignored="true"/>
+        <testcase name="Then User open my accounts page" classname="Scenario: Sign in to Just recharge it" time="1.998" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,5 @@
+Feature: Rest Api get testing using Rest Assured
+
+Background:
+	Given Simple init
+	And Set web application url to "https://reqres.in"

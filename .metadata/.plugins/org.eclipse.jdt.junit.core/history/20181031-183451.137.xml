@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ApiRunner" project="Api_Automation" tests="7" started="7" failures="2" errors="0" ignored="2">
+  <testsuite name="com.qa.runnerApi.ApiRunner" time="5.462">
+    <testsuite name="Feature: Rest Api get testing using Rest Assured" time="5.462">
+      <testsuite name="Scenario: Get request" time="5.355" incomplete="true">
+        <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at com.qa.stepDefinitionsApi.OrgStepDefinition.valid_HTTP_response_should_be_received(OrgStepDefinition.java:49)&#13;
+	at ✽.Then Valid HTTP response should be received(D:/MyStudy/BDD/JITAutomation/Api_Automation/src/main/resources/com/qa/featuresApi/OrgFeature.feature:10)&#13;
+&#13;
+</failure>
+        <testcase name="Given Set web application url to the application url" classname="Scenario: Get request" time="0.668"/>
+        <testcase name="Given get api endpoint as proper url" classname="Scenario: Get request" time="0.259"/>
+        <testcase name="Given Set HEADER param response accept type as json type" classname="Scenario: Get request" time="4.365"/>
+        <testcase name="When Raise GET HTTP request" classname="Scenario: Get request" time="0.055"/>
+        <testcase name="Then Valid HTTP response should be received" classname="Scenario: Get request" time="0.008">
+          <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at com.qa.stepDefinitionsApi.OrgStepDefinition.valid_HTTP_response_should_be_received(OrgStepDefinition.java:49)&#13;
+	at ✽.Then Valid HTTP response should be received(D:/MyStudy/BDD/JITAutomation/Api_Automation/src/main/resources/com/qa/featuresApi/OrgFeature.feature:10)&#13;
+&#13;
+</failure>
+        </testcase>
+        <testcase name="Then Response http code should be 200" classname="Scenario: Get request" time="0.002" ignored="true"/>
+        <testcase name="Then Response BODY should not be null or empty" classname="Scenario: Get request" time="0.099" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

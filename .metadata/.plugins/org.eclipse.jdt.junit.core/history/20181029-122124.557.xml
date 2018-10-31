@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="JITAutomationBdd" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.qa.runner.TestRunner" time="11.323">
+    <testsuite name="Feature: Just Recharge It feature" time="11.323">
+      <testsuite name="Scenario: Sign in to Just recharge it" time="11.323">
+        <testcase name="Given User is on start page of JIT website" classname="Scenario: Sign in to Just recharge it" time="3.994"/>
+        <testcase name="When User clicks on Sign in link" classname="Scenario: Sign in to Just recharge it" time="0.783"/>
+        <testcase name="Then User enters username and password to Sign in" classname="Scenario: Sign in to Just recharge it" time="5.105"/>
+        <testcase name="Then User clicks on Secure Sign In button" classname="Scenario: Sign in to Just recharge it" time="0.216"/>
+        <testcase name="Then User open my accounts page" classname="Scenario: Sign in to Just recharge it" time="1.225"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

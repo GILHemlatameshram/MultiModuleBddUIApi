@@ -1,0 +1,74 @@
+package com.qa.stepDefinitionsApi;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+
+public class OrgStepDefinition {
+	@Given("^Simple init$")
+	public void simple_init() {
+	   
+	    
+	}
+
+	@Given("^Set web application url to \"([^\"]*)\"$")
+	public void set_web_application_url_to(String arg1) {
+	   
+	    
+	}
+
+	@Given("^Set GET api endpoint as \"([^\"]*)\"$")
+	public void set_GET_api_endpoint_as(String arg1) {
+	   
+	    
+	}
+
+	@Given("^Set HEADER param response accept type as \"([^\"]*)\"$")
+	public void set_HEADER_param_response_accept_type_as(String arg1) {
+	   
+	    
+	}
+
+	@Given("^Set Query param as \"([^\"]*)\"$")
+	public void set_Query_param_as(String arg1) {
+	   
+	    
+	}
+
+	@Given("^Raise \"([^\"]*)\" HTTP request$")
+	public void raise_HTTP_request(String arg1) {
+	   
+	    
+	}
+
+	@Then("^Valid HTTP response should be received$")
+	public void valid_HTTP_response_should_be_received() {
+	   
+	    
+	}
+
+	@Then("^Response http code should be (\\d+)$")
+	public void response_http_code_should_be(int arg1) {
+	   
+	    
+	}
+
+	@Then("^Response HEADER content type should be \"([^\"]*)\"$")
+	public void response_HEADER_content_type_should_be(String arg1) {
+	   
+	    
+	}
+
+	@Then("^Response BODY should not be null or empty$")
+	public void response_BODY_should_not_be_null_or_empty() {
+	   
+	    
+	}
+
+	@Then("^Response BODY parsing for \"([^\"]*)\" should be successful$")
+	public void response_BODY_parsing_for_should_be_successful(String arg1) {
+	   
+	    
+	}
+
+
+}
